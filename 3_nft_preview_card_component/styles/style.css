@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --VeryDarkBlue1: hsl(217, 54%, 11%);
+    --VeryDarkBlue2: hsl(216, 50%, 16%);
+    --VeryDarkBlue3: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--VeryDarkBlue1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    background: var(--VeryDarkBlue2);
+    border-radius: 15px;
+    max-width: 377px;
+    padding: 20px;
+}
+
+.one {
+    width: auto;
+}
+
+.one img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.two {
+    text-align: center;
+}
+
+.title {
+    margin: 20px 0px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--White);
+}
+
+.description {
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: var(--SoftBlue);
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.amount-title {
+    color: var(--Cyan);
+
+}
+
+.duration-title {
+    color: var(--SoftBlue);
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.divider {
+    margin: 10px 10px;
+    color: var(--SoftBlue);
+}
+
+.avatar-four {
+    color: var(--White);
+}
+
+.avatar-four span {
+    color: var(--SoftBlue);
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: solid 3px var(--White);
+    border-width: 1px;
+    height: 30px;
+    width: 30px;
+}

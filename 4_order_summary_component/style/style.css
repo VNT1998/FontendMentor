@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --PaleBlue: hsl(225, 100%, 94%);
+    --BrightBlue: hsl(245, 75%, 52%);
+    --VeryPaleBlue: hsl(225, 100%, 98%);
+    --DesaturatedBlue: hsl(224, 23%, 55%);
+    --DarkBlue: hsl(223, 47%, 23%);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--PaleBlue);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 375px;
+    min-height: 637px;
+    border-radius: 1rem;
+    background: var(--VeryPaleBlue);
+    margin: 1rem 2rem;
+}
+
+.one {
+    flex: 1;
+    width: auto;
+}
+
+.one-two {
+    flex: 5;
+    padding: 0px 35px;
+    width: auto;
+}
+
+.one img {
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.two .title {
+    color: var(--DarkBlue);
+    font-weight: 900;
+}
+
+.two .description {
+    color: var(--DarkBlue);
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-items: center;
+}
+
+.title2 {
+    color: var(--DesaturatedBlue);
+}
+
+.three .description {
+    color: var(--BrightBlue);
+}
+
+.card-button {
+    background-color: var(--BrightBlue);
+    color: var(--VeryPaleBlue);
+}
+
+.card-button-text {
+    align-items: center;
+}
+
+.card-button1 {
+    width: 365px;
+    color: var(--DesaturatedBlue);
+}
+
+.card-button-text1 {
+    align-items: center;
+}
